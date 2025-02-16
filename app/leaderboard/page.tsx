@@ -23,7 +23,7 @@ export default function LeaderboardPage() {
   const leaderboardData = [
     {
       rank: 1,
-      name: 'Rey Milbourne',
+      name: 'Harshita Mugdha',
       title: 'Lead Developer at Verbum',
       avatar: '/avatars/rey.jpg',
       score: 155950,

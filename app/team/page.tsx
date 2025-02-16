@@ -87,7 +87,7 @@ const TeamPage = () => {
             transition={{ delay: 0.2 }}
             className="text-zinc-400 text-base"
           >
-            Fresh minds shaping tomorrow's technology
+            Sleeping minds from the 24Hours Long Hackathon
           </motion.p>
         </div>
         

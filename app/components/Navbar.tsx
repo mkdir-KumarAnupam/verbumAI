@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Users, Trophy, HelpCircle, Users2 } from 'lucide-react';
+import { Users, Trophy, HelpCircle, Users2, Bookmark } from 'lucide-react'; // Import Bookmark icon
 import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs';
 
 const NavLink = ({ href, icon: Icon, children }: { href: string; icon: any; children: React.ReactNode }) => {
@@ -74,6 +74,7 @@ export default function Navbar() {
             <NavLink href="/team" icon={Users}>Team</NavLink>
             <NavLink href="/friends" icon={Users2}>Friends</NavLink>
             <NavLink href="/support" icon={HelpCircle}>Support</NavLink>
+            <NavLink href="/collections" icon={Bookmark}>Collections</NavLink> {/* Add this line */}
             
             <motion.div
               whileHover={{ scale: 1.05 }}
